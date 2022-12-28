@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = 'Location: ' + data.location
-                messageTwo.textContent = data.weatherDescription + '. It is currently ' + data.temperature + ' degrees. However, it feels like ' + data.feelsLike + ' degrees. The humidity is ' + data.humidity + '.'
+                messageTwo.textContent = data.weatherDescription + '. It is currently ' + data.temperature + ' degrees. However, it feels like ' + data.feelsLike + ' degrees. The humidity is ' + data.humidity + '%.'
             }
             
         })
